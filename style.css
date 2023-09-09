@@ -1,0 +1,22 @@
+
+body {
+    background-color: lightgray;
+    @media 480px {
+        
+    }
+
+  }
+
+  head{
+    font-family:'Brush Script MT', cursive; 
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: ;
+    font-size: 20px;
+  }
