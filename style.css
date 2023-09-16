@@ -1,9 +1,14 @@
 header{
 text-decoration-color: black;
 
-}
-img{
-  
+.img{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 10px;
+
 }
 body {
     background-color: lightgray;
