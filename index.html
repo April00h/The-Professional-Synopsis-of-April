@@ -2,29 +2,74 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <img src="images/Screenshot 2023-09-16 at 3.31.40 PM.png" 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Professional Portfolio of April Hunt </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=".style.css>
 
-</head>
-    <h1 style="background-color:rgb(236, 103, 236);">April Hunt</h1>
+    <h1 style="background-color:rgb(236, 103, 236);class="header">
+        <h1>Welcome</h1>
+        <h1>April Hunt</h1>
+    </h1>
      <nav> 
-           <a href="www.linkedin.com/in/april-h123"> Connect</a>
-          <a href="mailto:aprilhunt00.ah@gmail.com">Send email</a>
-
+        <a href="www.linkedin.com/in/april-h123"> Connect</a>
+        <a href="mailto:aprilhunt00.ah@gmail.com">Send email</a>
+        <a href="#contact">Contact</a>
      </nav>
-    <h3 style="background-color:rgb(236, 103, 236);"> About Me</h3>
+    <h2 style="background-color:rgb(236, 103, 236);"> About Me</h3>
             <p>The purpose of this area is to direct employers to view my assets to your organization. The following portfolio will present the developers projects that will show expertice.</p>
      <img src="images/IMG_3061.jpg" width="300" height="300">
 
     <h3 style="background-color:rgb(236, 103, 236);"> Projects</h3>
-   
-   
-<body text="black" bgcolor="grey">
-    <h1>
-        
-    </h1>
     
-</body>
-</html>
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #C8C8C8;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project {
+            margin-bottom: 30px;
+        }
+
+        .project img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .project h2 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        .project p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+    </style>
+
+    .box {
+        width: 100px;
+        height: 100px;
+        background-color: #3498db;
+        margin: 10px;
+        text-align: center;
+        line-height: 100px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+    .box:hover {
+        transform: scale(1.1);
+    }
+<style>
+
+<div class="box" onclick="handleClick(1)">Box 1</div>
+<div class="box" onclick="handleClick(2)">Box 2</div>
+<div class="box" onclick="handleClick(3)">Box 3</div>
+</style>
