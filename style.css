@@ -1,0 +1,53 @@
+nav{
+box-sizing: border-box;
+top:0px;
+width: 100%;
+background-color: whitesmoke;
+  padding: 5px;
+  height: 80px;
+  font-family:Optima, sans-serif;
+  font-weight: 500;
+}
+.tab1,
+.tab2,
+.tab3,
+.tab4{
+  -webkit-text-stroke-color: #ec67ec;
+  text-decoration: underline overline;
+  text-decoration-color:black ;
+}
+
+body {
+ background-color: lightgrey; 
+
+}
+.container{
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+}
+
+.container2 {
+ display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+    font-size: larger;
+    line-height: 1.0;
+    text-align: left;
+
+} 
+
+.h1 {
+  display: flex;
+  justify-content:end;
+}
+
+@media screen and (max-width: 480px){
+  .nav,
+  .body{ 
+  height:30px;
+  padding:5px;
+}
+}
+
