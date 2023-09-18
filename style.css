@@ -4,7 +4,7 @@ top:0px;
 width: 100%;
 background-color: whitesmoke;
   padding: 5px;
-  height: 80px;
+  height: 95px;
   font-family:Optima, sans-serif;
   font-weight: 500;
 }
@@ -12,15 +12,18 @@ background-color: whitesmoke;
 .tab2,
 .tab3,
 .tab4{
-  -webkit-text-stroke-color: #ec67ec;
+  display:flex;
+  justify-content: flex-end;
+  -webkit-text-stroke-color: black;
   text-decoration: underline overline;
-  text-decoration-color:black ;
+  text-decoration-color:black;
 }
 
 body {
  background-color: lightgrey; 
 
 }
+
 .container{
 display: flex;
 flex-direction:row;
@@ -35,12 +38,29 @@ justify-content: space-between;
     font-size: larger;
     line-height: 1.0;
     text-align: left;
-
 } 
+.container3-img{
+  float: left;
+  border:5px solid black;
+  padding: 10px;
+}
+.content3 {
+  float: right
+  text-indent: 20px;
+  font-size: 15px;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: Optima, sans-serif;
+
+}
 
 .h1 {
   display: flex;
   justify-content:end;
+}
+
+.h4{
+  text-transform: ;
 }
 
 @media screen and (max-width: 480px){
