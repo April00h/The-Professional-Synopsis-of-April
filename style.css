@@ -1,10 +1,11 @@
-nav{
-box-sizing: border-box;
-top:0px;
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
 width: 100%;
 background-color: whitesmoke;
   padding: 5px;
-  height: 95px;
+  /* height: 95px; */
   font-family:Optima, sans-serif;
   font-weight: 500;
 }
@@ -23,11 +24,16 @@ body {
  background-color: lightgrey; 
 
 }
+.section-heading{
+background-color: #ec67ce;
+padding: 0.5rem ;
+margin-top:0;
+}
 
+/* taget div add padding */
 .container{
 display: flex;
-flex-direction:row;
-justify-content: space-between;
+gap:2rem ;
 }
 
 .container2 {
@@ -46,7 +52,7 @@ justify-content: space-between;
 }
 .content3 {
   float: right
-  text-indent: 20px;
+  text-indent 20px;
   font-size: 15px;
   padding: 30px;
   box-sizing: border-box;
