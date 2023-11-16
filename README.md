@@ -1,5 +1,8 @@
 Welcome to my developer portfolio! This repository showcases my skills, projects, and experience in the world of software development. Whether you're a potential employer, collaborator, or just curious about my work, you'll find relevant information here.
 
+https://github.com/April00h/The-Professional-Synopsis-of-April/blob/main/images/headshot.jpg?raw=true
+
+
 
 Table of Contents
 About Me
